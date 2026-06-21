@@ -61,6 +61,8 @@ The project focuses on:
 
 ## Security Monitoring Pipeline
 
+![Security Monitoring Pipeline](diagrams/Security-Monitoring-Pipeline (2).png)
+
 Kali Linux → Windows Endpoints → Sysmon → Windows Event Logs → Splunk Universal Forwarder → Splunk Enterprise → Dashboards → Alerts → Llama 3 AI Analysis
 
 ---
