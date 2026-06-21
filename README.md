@@ -79,6 +79,8 @@ Kali Linux → Windows Endpoints → Sysmon → Windows Event Logs → Splunk Un
 
 ## Network Configuration
 
+![Network Architecture](diagrams/Network Architecture.png)
+
 | System | IP Address |
 |----------|----------|
 | DC01 | 192.168.10.10 |
