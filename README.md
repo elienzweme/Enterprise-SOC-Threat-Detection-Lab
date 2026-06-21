@@ -57,7 +57,7 @@ The project focuses on:
 
 # Lab Architecture
 
-![Architecture Diagram](https://github.com/elienzweme/Enterprise-SOC-Threat-Detection-Lab/blob/main/Docs/Lab%20Architechure.png)
+![Architecture Diagram](Docs/Lab%20Architechure.png)
 
 ## Security Monitoring Pipeline
 
@@ -68,6 +68,8 @@ Kali Linux → Windows Endpoints → Sysmon → Windows Event Logs → Splunk Un
 ---
 
 # Environment Setup
+
+![Infrastructure Overview](diagrams/Infrastructure%20Overview%201.png)
 
 ## Virtual Machines
 
@@ -112,7 +114,7 @@ CORP.local
 
 ### Screenshot
 
-![AD Configuration](images/active-directory/ad-users-and-computers.png)
+![AD Configuration](images/ad-users-and-computers.png)
 
 ---
 
@@ -130,11 +132,13 @@ Sysmon was installed on all Windows systems using the SwiftOnSecurity configurat
 
 ### Screenshot
 
-![Sysmon Deployment](images/sysmon/sysmon-running.png)
+![Sysmon Deployment](images/sysmon-running.png)
 
 ---
 
 # Splunk Deployment
+
+![Tools Used](diagrams/Tools%20Used.png)
 
 Splunk Enterprise was installed on Ubuntu Server.
 
@@ -148,7 +152,7 @@ Splunk Enterprise was installed on Ubuntu Server.
 
 ### Screenshot
 
-![Splunk Deployment](images/splunk/splunk-home.png)
+![Splunk Deployment](images/splunk-home.png)
 
 ---
 
@@ -171,7 +175,7 @@ index=* | stats count by host
 
 ### Screenshot
 
-![Log Verification](images/log-forwarding/host-reporting.png)
+![Log Verification](images/dc01-splunk-forwarder-running.png)
 
 ---
 
