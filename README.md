@@ -61,7 +61,7 @@ The project focuses on:
 
 ## Security Monitoring Pipeline
 
-![Security Monitoring Pipeline](diagrams/Security-Monitoring-Pipeline (2).png)
+![Security Monitoring Pipeline](diagrams/Security-Monitoring-Pipeline%20(2).png)
 
 Kali Linux → Windows Endpoints → Sysmon → Windows Event Logs → Splunk Universal Forwarder → Splunk Enterprise → Dashboards → Alerts → Llama 3 AI Analysis
 
@@ -81,7 +81,7 @@ Kali Linux → Windows Endpoints → Sysmon → Windows Event Logs → Splunk Un
 
 ## Network Configuration
 
-![Network Architecture](diagrams/Network Architecture.png)
+![Network Architecture](diagrams/Network%20Architecture.png)
 
 | System | IP Address |
 |----------|----------|
