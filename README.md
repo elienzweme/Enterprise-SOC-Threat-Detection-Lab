@@ -191,15 +191,15 @@ index=* | stats count by host
 
 ## Sysmon Event Visibility
 
-![Sysmon Event](screenshots/Sysmon Event.png)
+![Sysmon Event](screenshots/Sysmon%20Event.png)
 
 ## Threat Hunting Validation
 
-![Threat Hunting](screenshots/Threat-Hunting.png)
+![Threat Hunting](screenshots/Threat-Hunting.png.png)
 
 ## PowerShell MITRE Detection
 
-![PowerShell MITRE](screenshots/PowerShell MITRE.png)
+![PowerShell MITRE](screenshots/PowerShell%20MITRE.png)
 
 ---
 
