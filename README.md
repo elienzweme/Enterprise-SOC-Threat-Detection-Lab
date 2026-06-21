@@ -114,7 +114,11 @@ CORP.local
 
 ### Screenshot
 
-![AD Configuration](images/ad-users-and-computers.png)
+<h3>Screenshot</h3>
+
+<p align="center">
+  <img src="images/ad-users-and-computers.png">
+</p>
 
 ---
 
