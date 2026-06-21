@@ -1,0 +1,3 @@
+index=* host=Client02 EventCode=4625
+| table _time Account_Name Source_Network_Address
+| sort - _time

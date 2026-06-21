@@ -1,0 +1,4 @@
+sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational"
+| rex "<Data Name='Image'>(?<Image>[^<]+)</Data>"
+| search Image="*cmd.exe*"
+| table _time host Image

@@ -1,0 +1,6 @@
+sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational"
+| rex "<EventID>(?<EventID>\d+)</EventID>"
+| rex "<Data Name='Image'>(?<Image>[^<]+)</Data>"
+| rex "<Data Name='CommandLine'>(?<CommandLine>[^<]+)</Data>"
+| search EventID=1
+| table _time host Image CommandLine

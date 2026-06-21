@@ -1,0 +1,4 @@
+sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational"
+| rex "<EventID>(?<EventID>\d+)</EventID>"
+| search EventID=11
+| stats count by host

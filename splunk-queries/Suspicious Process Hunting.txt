@@ -1,0 +1,5 @@
+sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational"
+| rex "<Data Name='Image'>(?<Image>[^<]+)</Data>"
+| search Image="*powershell.exe*" OR Image="*cmd.exe*" OR Image="*wmic.exe*"
+| table _time host Image
+| sort - _time

@@ -1,0 +1,3 @@
+sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational"
+| rex "<EventID>(?<EventID>\d+)</EventID>"
+| stats count by EventID
