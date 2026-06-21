@@ -183,6 +183,26 @@ index=* | stats count by host
 
 ---
 
+# Validation Results
+
+## Event ID Distribution
+
+![Event Validation](screenshots/EventID_Validation.png)
+
+## Sysmon Event Visibility
+
+![Sysmon Event](screenshots/Sysmon Event.png)
+
+## Threat Hunting Validation
+
+![Threat Hunting](screenshots/Threat-Hunting.png)
+
+## PowerShell MITRE Detection
+
+![PowerShell MITRE](screenshots/PowerShell MITRE.png)
+
+---
+
 # Dashboards
 
 ## 1. SOC Command Center
@@ -199,7 +219,7 @@ Provides centralized visibility across the entire SOC environment.
 - Top Processes
 - Latest Events
 
-![SOC Dashboard](images/dashboards/soc-command-center.png)
+![SOC Dashboard](dashboards/soc-comand-center.png)
 
 ---
 
@@ -215,7 +235,7 @@ Provides management-level security visibility.
 - Trend Analysis
 - Latest Activity
 
-![Executive Dashboard](images/dashboards/executive-security.png)
+![Executive Dashboard](dashboards/executive-security.png)
 
 ---
 
@@ -231,7 +251,7 @@ Monitors authentication activity.
 - Top Targeted Accounts
 - Top Failed Sources
 
-![Authentication Dashboard](images/dashboards/authentication.png)
+![Authentication Dashboard](dashboards/authentication.png)
 
 ---
 
@@ -247,7 +267,7 @@ Monitors endpoint activity using Sysmon.
 - File Creations
 - Registry Modifications
 
-![Endpoint Dashboard](images/dashboards/endpoint-threat.png)
+![Endpoint Dashboard](dashboards/endpoint-threat.png)
 
 ---
 
@@ -263,7 +283,7 @@ Provides threat hunting visibility.
 - Network Activity
 - DNS Activity
 
-![Threat Hunting Dashboard](images/dashboards/threat-hunting.png)
+![Threat Hunting Dashboard](dashboards/threat-hunting.png)
 
 ---
 
@@ -279,7 +299,7 @@ Maps telemetry to MITRE ATT&CK techniques.
 - Top Sysmon Processes
 - Host Activity
 
-![MITRE Dashboard](images/dashboards/mitre-monitoring.png)
+![MITRE Dashboard](dashboards/mitre-att&ck-monitoring.png)
 
 ---
 
@@ -295,11 +315,30 @@ Monitors identity-related activity.
 - Privileged Activity
 - Computer Account Changes
 
-![AD Dashboard](images/dashboards/ad-monitoring.png)
+![AD Dashboard](dashboards/active-directory-monitoring.png)
+
+---
+
+# Kali Attack Simulation
+
+![Kali Attack Simulation](diagrams/Kali%20Attack%20Simulation.png)
+
+Kali Linux was used to simulate attacker behavior against the enterprise environment.
+
+Activities included:
+
+- Host Discovery
+- Port Scanning
+- Service Enumeration
+- Authentication Attacks
+- Brute Force Simulations
+- Detection Validation
 
 ---
 
 # Detection Engineering
+
+![Detection Engineering](diagrams/Detection%20Engineering.png)
 
 ## Use Cases Implemented
 
@@ -344,6 +383,8 @@ Multiple failed login attempts were detected against domain user accounts.
 
 ### Findings
 
+![Investigation Findings](diagrams/Findings.png)
+
 | Item | Result |
 |--------|--------|
 | Event ID | 4625 |
@@ -365,7 +406,19 @@ Monitor repeated failures and implement account lockout policies.
 
 ---
 
+# MITRE ATT&CK Mapping
+
+![MITRE ATT&CK Mapping](diagrams/MITRE%20ATT%26CK%20Mapping.png)
+
+The lab maps Sysmon and Windows Security telemetry to MITRE ATT&CK techniques to improve threat detection and investigation workflows.
+
+---
+
 # AI-Powered Security Analysis
+
+![AI Environment](diagrams/AI%20Environment.png)
+
+![AI-Powered Security Analysis](diagrams/AI-Powered%20Security%20Analysis.png)
 
 Llama 3 was integrated to assist with:
 
