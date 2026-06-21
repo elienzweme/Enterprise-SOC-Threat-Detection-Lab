@@ -9,4 +9,15 @@
 ![Windows](https://img.shields.io/badge/Windows-Server%202025-lightgrey)
 ![Project](https://img.shields.io/badge/Project-Completed-brightgreen)
 
-Enterprise SOC lab demonstrating SIEM deployment, Windows telemetry collection, threat detection, threat hunting, and security investigation using Splunk, Sysmon, Active Directory, and Linux.
+A Splunk-based Security Operations Center (SOC) lab designed to simulate enterprise security monitoring, threat detection, threat hunting, Active Directory monitoring, incident investigation, and AI-assisted security analysis.
+
+Technologies:
+- Splunk Enterprise
+- Sysmon
+- Active Directory
+- Windows Security Logs
+- Splunk Universal Forwarder
+- Kali Linux
+- MITRE ATT&CK
+- Ollama / Llama 3
+- VMware Workstation
