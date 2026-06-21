@@ -117,7 +117,7 @@ CORP.local
 <h3>Screenshot</h3>
 
 <p align="center">
-  <img src="images/ad-users-and-computers.png">
+  <img src="images/ad-users-and-computers.png" width="1200">
 </p>
 
 ---
