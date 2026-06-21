@@ -55,6 +55,20 @@ The project focuses on:
 
 ---
 
+# Key Accomplishments
+
+- Built a 5-VM enterprise SOC environment
+- Integrated Sysmon telemetry across Windows hosts
+- Configured Splunk Enterprise as the SIEM platform
+- Created 7 security monitoring dashboards
+- Implemented 9 detection use cases
+- Mapped detections to MITRE ATT&CK techniques
+- Simulated brute-force attacks using Kali Linux
+- Conducted incident investigations and threat hunting
+- Integrated Llama 3 for AI-assisted analysis
+
+---
+
 # Lab Architecture
 
 ![Architecture Diagram](Docs/Lab%20Architechure.png)
