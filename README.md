@@ -83,7 +83,7 @@ Kali Linux → Windows Endpoints → Sysmon → Windows Event Logs → Splunk Un
 
 ## Network Configuration
 
-![Network Architecture](diagrams/Network%20Architecture.png)
+![Network Architecture](diagrams/network-architecture.png)
 
 | System | IP Address |
 |----------|----------|
