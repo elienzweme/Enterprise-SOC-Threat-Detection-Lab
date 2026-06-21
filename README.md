@@ -39,6 +39,8 @@ The project focuses on:
 
 # Project Metrics
 
+![Project Metrics](diagrams/project-metrics.png)
+
 | Metric | Value |
 |----------|----------|
 | Project Duration | 1.5 Weeks |
