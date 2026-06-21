@@ -48,7 +48,7 @@ The project focuses on:
 
 # Lab Architecture
 
-![Architecture Diagram](images/architecture/architecture-diagram.png)
+![Architecture Diagram](https://github.com/elienzweme/Enterprise-SOC-Threat-Detection-Lab/blob/main/Docs/Lab%20Architechure.png)
 
 ## Security Monitoring Pipeline
 
