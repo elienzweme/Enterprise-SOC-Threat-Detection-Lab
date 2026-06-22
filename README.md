@@ -39,9 +39,20 @@ The project focuses on:
 
 ## 🎥 Project Walkthrough
 
-[![Watch the Walkthrough](https://img.shields.io/badge/YouTube-Watch%20Walkthrough-red?logo=youtube)](https://www.youtube.com/watch?v=IM0pEu-1QiM)
+[![Enterprise SOC Threat Detection Lab Walkthrough](https://img.youtube.com/vi/IM0pEu-1QiM/maxresdefault.jpg)](https://www.youtube.com/watch?v=IM0pEu-1QiM)
 
-Complete end-to-end demonstration of the Enterprise SOC Threat Detection Lab, including Splunk deployment, Sysmon telemetry collection, threat detection use cases, Active Directory integration, Kali Linux attack simulation, and Llama 3 AI-assisted analysis.
+▶️ Click the image above to watch the complete project walkthrough on YouTube.
+
+This demonstration covers:
+- Active Directory deployment
+- Sysmon configuration and validation
+- Splunk Enterprise installation
+- Universal Forwarder deployment
+- Threat hunting queries
+- Event ID 4625 detection
+- Sysmon Event ID 1 monitoring
+- Kali Linux attack simulation
+- Llama 3 AI-assisted threat analysis
 
 ---
 
