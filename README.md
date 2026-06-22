@@ -37,6 +37,14 @@ The project focuses on:
 
 ---
 
+## 🎥 Project Walkthrough
+
+[![Watch the Walkthrough](https://img.shields.io/badge/YouTube-Watch%20Walkthrough-red?logo=youtube)](https://www.youtube.com/watch?v=IM0pEu-1QiM)
+
+Complete end-to-end demonstration of the Enterprise SOC Threat Detection Lab, including Splunk deployment, Sysmon telemetry collection, threat detection use cases, Active Directory integration, Kali Linux attack simulation, and Llama 3 AI-assisted analysis.
+
+---
+
 # Project Metrics
 
 ![Project Metrics](diagrams/project-metrics.png)
