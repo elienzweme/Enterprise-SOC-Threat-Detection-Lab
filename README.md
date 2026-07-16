@@ -10,9 +10,6 @@
 ![Windows](https://img.shields.io/badge/Windows-Server%202025-lightgrey)
 ![Project](https://img.shields.io/badge/Project-Completed-brightgreen)
 
----
-# Cover Page
-
 <p align="center">
   <img src="images/cover-page.png" width="1000">
 </p>
